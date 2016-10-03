@@ -1,13 +1,13 @@
-# npm-common-package
+# npm-common-package-stencil
 This is a stencils for common package.
 
 ## Current Status:
 
-[![NPM Version](https://img.shields.io/npm/v/npm-common-package.svg)](https://npmjs.org/package/npm-common-package)
-[![NPM Downloads](https://img.shields.io/npm/dm/npm-common-package.svg)](https://npmjs.org/package/npm-common-package)
-[![Build Status](https://travis-ci.org/jsmodule/npm-common-package.svg?branch=master)](https://travis-ci.org/jsmodule/npm-common-package)
+[![NPM Version](https://img.shields.io/npm/v/npm-common-package-stencil.svg)](https://npmjs.org/package/npm-common-package-stencil)
+[![NPM Downloads](https://img.shields.io/npm/dm/npm-common-package-stencil.svg)](https://npmjs.org/package/npm-common-package-stencil)
+[![Build Status](https://travis-ci.org/jsmodule/npm-common-package-stencil.svg?branch=master)](https://travis-ci.org/jsmodule/npm-common-package-stencil)
 
-[![NPM](https://nodei.co/npm/npm-common-package.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/npm-common-package/)
+[![NPM](https://nodei.co/npm/npm-common-package-stencil.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/npm-common-package-stencil/)
 
 ## Features:
 
@@ -20,7 +20,7 @@ This is a stencils for common package.
 
 ### Setup
 
-Copy this stencil and replace `npm-common-package` with your package name.
+Copy this stencil and replace `npm-common-package-stencil` with your package name.
 
 ### Linting
 

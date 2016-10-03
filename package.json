@@ -1,5 +1,5 @@
 {
-  "name": "npm-common-package",
+  "name": "npm-common-package-stencil",
   "version": "0.9.0",
   "description": "A stencil for build a common package",
   "main": "lib/index.js",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xqstencils/npm-common-package.git"
+    "url": "git+https://github.com/xqstencils/npm-common-package-stencil.git"
   },
   "keywords": [
     "node",
@@ -51,7 +51,7 @@
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xqstencils/npm-common-package/issues"
+    "url": "https://github.com/xqstencils/npm-common-package-stencil/issues"
   },
-  "homepage": "https://github.com/xqstencils/npm-common-package#readme"
+  "homepage": "https://github.com/xqstencils/npm-common-package-stencil#readme"
 }
