@@ -61,3 +61,7 @@ $ npm run build
 ```
 $ npm run release
 ```
+
+## License
+
+npm-common-package-stencil is released under the MIT license.
