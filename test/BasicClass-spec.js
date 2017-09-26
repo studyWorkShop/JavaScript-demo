@@ -9,4 +9,11 @@ describe('BasicClass', () => {
       expect(basicClassContructor.name).to.be.equal('You');
     });
   });
+
+  describe('BasicClass static method', () => {
+    it('should return static method', () => {
+      const staticArea = BasicClass.calculateArea({height: 2, width: 4});
+      expect(staticArea).to.be.equal(8);
+    });
+  });
 });
