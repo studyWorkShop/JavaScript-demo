@@ -1,1 +1,1 @@
-export default from './js/add';
+export default from './js/BasicClass';
