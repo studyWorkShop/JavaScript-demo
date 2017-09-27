@@ -16,4 +16,11 @@ describe('BasicClass', () => {
       expect(staticArea).to.be.equal(8);
     });
   });
+
+  describe('BasicClass normal method', () => {
+    it('should return normal method', () => {
+      const newBasicClass = new BasicClass(2, 3);
+      expect(newBasicClass.normalCalculateArea()).to.be.equal(6);
+    });
+  });
 });

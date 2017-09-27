@@ -8,6 +8,10 @@ class BasicClass {
   static calculateArea(area) {
     return area.height * area.width;
   }
+
+  normalCalculateArea() {
+    return this.width * this.height;
+  }
 }
 
 export default BasicClass;
