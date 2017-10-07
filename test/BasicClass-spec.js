@@ -31,7 +31,7 @@ describe('BasicClass', () => {
     });
   });
 
-  describe.only('BasicClass setter method', () => {
+  describe('BasicClass setter method', () => {
     it('should return setter method', () => {
       const newBasicClass = new BasicClass(2, 3);
       newBasicClass.setArea = 21;
