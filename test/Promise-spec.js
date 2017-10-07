@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import {oldPromise, successCallback, rejectedCallback} from '../src/js/Promise';
+import {oldPromise, successCallback, rejectedCallback} from '../src/js/oldPromise';
 
 describe('test with old promise', () => {
   it('test with success callback', () => {
