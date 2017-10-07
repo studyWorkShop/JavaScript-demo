@@ -23,4 +23,19 @@ describe('BasicClass', () => {
       expect(newBasicClass.normalCalculateArea()).to.be.equal(6);
     });
   });
+
+  describe('BasicClass getter method', () => {
+    it('should return getter method', () => {
+      const newBasicClass = new BasicClass(2, 5);
+      expect(newBasicClass.getArea).to.be.equal(10);
+    });
+  });
+
+  describe.only('BasicClass setter method', () => {
+    it('should return setter method', () => {
+      const newBasicClass = new BasicClass(2, 3);
+      newBasicClass.setArea = 21;
+      expect(newBasicClass.age).to.be.equal(21);
+    });
+  });
 });

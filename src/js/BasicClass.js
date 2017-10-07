@@ -12,6 +12,14 @@ class BasicClass {
   normalCalculateArea() {
     return this.width * this.height;
   }
+
+  get getArea() {
+    return this.height * this.width;
+  }
+
+  set setArea(value) {
+    this.age = value;
+  }
 }
 
 export default BasicClass;
