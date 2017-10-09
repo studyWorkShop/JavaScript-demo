@@ -16,15 +16,13 @@
     "babel:watch": "watch 'npm run babel' ./src",
     "build": "npm run clean && npm run babel",
     "unit-test": "mocha --compilers js:babel-register test/",
-    "test": "npm run lint && npm run unit-test",
+    "test": "npm run unit-test",
     "test:watch": "watch 'npm run test' ./src ./test",
-    "prepare": "npm install && npm prune && npm run build",
     "git-release": "/bin/bash ./ci/git-release.sh",
     "npm-release": "/bin/bash ./ci/npm-release.sh",
     "release": "npm run git-release && npm run npm-release"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-eslint": "^6.1.2",
